@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# IDE1006: Styles d'affectation de noms
+dotnet_diagnostic.IDE1006.severity = none
+
+# CS8618: Un champ non-nullable doit contenir une valeur non-null lors de la fermeture du constructeur. Envisagez de déclarer le champ comme nullable.
+dotnet_diagnostic.CS8618.severity = none
+
+# CS8625: Impossible de convertir un littéral ayant une valeur null en type référence non-nullable.
+dotnet_diagnostic.CS8625.severity = none

@@ -1,0 +1,3 @@
+Path;Type;MaxSize;Notes
+orderNumber;String;11;
+error;String;As needed;Error message

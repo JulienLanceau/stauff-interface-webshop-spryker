@@ -1,0 +1,49 @@
+{
+  "freight": {
+    "mode": "Standard",
+    "price": {
+      "baseValue": 0.10,
+      "currencyCode": "EUR"
+    },
+    "taxes": [
+      {
+        "name": "VAT",
+        "rate": 19.6
+      }
+    ]
+  },
+  "items": [
+    {
+      "positionPrice": {
+        "baseValue": 22.8,
+        "currencyCode": "EUR"
+      },
+      "taxes": [
+        {
+          "name": "VAT",
+          "rate": 19.6
+        }
+      ],
+      "basePrice": {
+        "currencyCode": "EUR",
+        "grossValue": 2.28,
+        "discount": 0,
+        "netValue": 2.28
+      },
+      "baseQuantity": 100,
+      "baseQuantityUnit": "PCS",
+      "confirmedQuantities": [
+        {
+          "quantity": 45,
+          "deliveryDate": "2022-03-16"
+        },
+        {
+          "quantity": 55,
+          "deliveryDate": "2022-03-16"
+        }
+      ],
+      "error": null
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,20 @@
+Path;Type;MaxSize;Notes
+freight.mode;String;As needed;Can be "Ex works", "Standard" or "Express"
+freight.price.baseValue;Decimal;;
+freight.price.currencyCode;String;3;
+freight.taxes[x].name;String;3;
+freight.taxes[x].rate;Decimal;;
+items[x].positionPrice.baseValue;Decimal;;
+items[x].positionPrice.currencyCode;String;3;
+items[x].taxes[x].name;String;3;
+items[x].taxes[x].rate;Decimal;;
+items[x].basePrice.currencyCode;String;3;
+items[x].basePrice.grossValue;Decimal;;
+items[x].basePrice.discount;Decimal;;
+items[x].basePrice.netValue;Decimal;;
+items[x].baseQuantity;Decimal;;
+items[x].baseQuantityUnit;String;20;
+items[x].confirmedQuantities[x].quantity;Decimal;;
+items[x].confirmedQuantities[x].deliveryDate;String;10;Can contain a valid date format YYYY-MM-DD or empty
+items[x].error;String;As needed;Error message
+error;String;As needed;Error message

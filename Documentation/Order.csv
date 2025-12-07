@@ -1,0 +1,36 @@
+Path;Type;MaxSize;Notes
+debitorNumber;String;15;
+vatNumber;String;20;Not used in simulation
+customerOrderNumber;String;100;Not used in simulation
+paymentReference;String;As needed;Currently only checks if empty or not, Not used in simulation
+sprykerOrderNumber;String;50;Not used in simulation
+orderComments;String;254;Not used in simulation
+customerAddress.name;String;100;Currently unused
+customerAddress.name2;String;As needed;Currently unused
+customerAddress.name3;String;As needed;Currently unused
+customerAddress.name4;String;As needed;Currently unused
+customerAddress.street;String;100;
+customerAddress.houseNumber;String;100;
+customerAddress.postalCode;String;20;
+customerAddress.city;String;100;
+customerAddress.countryCode;String;3;2-char country codes
+customerAddress.emailAddress;String;50;
+customerAddress.telephoneNumber;String;20;
+shipping.partnerNumber;String;100;Currently unused
+shipping.address.name;String;100;Currently unused
+shipping.address.name2;String;As needed;Currently unused
+shipping.address.name3;String;As needed;Currently unused
+shipping.address.name4;String;As needed;Currently unused
+shipping.address.street;String;100;
+shipping.address.houseNumber;String;100;
+shipping.address.postalCode;String;20;
+shipping.address.city;String;100;
+shipping.address.countryCode;String;3;2-char country codes
+shipping.address.emailAddress;String;50;
+shipping.address.telephoneNumber;String;20;
+completeDelivery;Boolean;;Not used in simulation
+freight.mode;String;As needed;Can be "Ex Works", "Standard" or "Express"
+items[x].materialNumber;String;11;
+items[x].baseQuantity;Decimal;;
+items[x].baseQuantityUnit;String;20;
+items[x].completeDelivery;Boolean;;

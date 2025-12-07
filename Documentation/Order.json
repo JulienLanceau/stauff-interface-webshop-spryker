@@ -1,0 +1,49 @@
+{
+  "debitorNumber": "",
+  "vatNumber": "DE305192230",
+  "customerOrderNumber": "Project #51",
+  "paymentReference": "ZDKDSNQTZ2RZNN82",
+  "sprykerOrderNumber": "E-Shop-FR--0815",
+  "orderComments": "please deliver on tuesday",
+  "customerAddress": {
+    "name": "diva-e",
+    "name2": "",
+    "name3": "",
+    "name4": "",
+    "street": "Beiertheimer Allee",
+    "houseNumber": "18",
+    "postalCode": "76137",
+    "city": "Karlsruhe",
+    "countryCode": "DE",
+    "emailAddress": "mail@diva-e.com",
+    "telephoneNumber": "0721/9206090"
+  },
+  "shipping": {
+    "partnerNumber": "",
+    "address": {
+      "name": "diva-e",
+      "name2": "",
+      "name3": "",
+      "name4": "",
+      "street": "Beiertheimer Allee",
+      "houseNumber": "18",
+      "postalCode": "76137",
+      "city": "Karlsruhe",
+      "countryCode": "DE",
+      "emailAddress": "mail@diva-e.com",
+      "telephoneNumber": "0721/9206090"
+    }
+  },
+  "completeDelivery": false,
+  "freight": {
+    "mode": "Express"
+  },
+  "items": [
+    {
+      "materialNumber": "1110001948",
+      "baseQuantity": 100,
+      "baseQuantityUnit": "PCS",
+      "completeDelivery": false
+    }
+  ]
+}
