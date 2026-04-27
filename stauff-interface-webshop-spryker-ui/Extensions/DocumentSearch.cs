@@ -177,7 +177,7 @@ FROM O{{Table}}
     LEFT JOIN OSHP on O{{Table}}.TrnspCode = OSHP.TrnspCode
 WHERE 1 = 1
     and ('{{DocumentNumber}}' = '' or '{{DocumentNumber}}' = O{{Table}}.DocNum)
-    and ('{{Email}}' = '' or '{{Email}}' = O{{Table}}.Email or O{{Table}}.U_EmailWeb like '%{{Email}}%')
+    and ('{{Email}}' = '' or '{{DocumentNumber}}' = O{{Table}}.DocNum or '{{Email}}' = O{{Table}}.Email or O{{Table}}.U_EmailWeb like '%{{Email}}%')
     and ('{{DebitorNumber}}' = '' or '{{DebitorNumber}}' = O{{Table}}.CardCode)
 GROUP BY     
 	O{{Table}}.DocNum,
